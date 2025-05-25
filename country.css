@@ -1,0 +1,61 @@
+html{
+    scroll-behavior: smooth;
+}
+
+#countries {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    padding: 30px;
+}
+
+.country {
+    border: 2px solid gray;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.country img {
+    height: 250px;
+    width: 100%;
+    object-fit: cover;
+}
+
+button {
+    background-color: rgb(7, 104, 7);
+    padding: 15px 30px;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover{
+    background-color: rgb(3, 3, 122);
+    color: rgba(240, 10, 240, 0.842);
+}
+
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background-color: #f4f4f4;
+}
+.details-country{
+    text-align: center;
+    border: 2px solid grey; 
+    padding: 20px;
+    margin: auto;
+    width: 70%;
+    margin: 50px auto;
+}
+.details-country img{
+    width: 100%;
+}
+.details-country iframe{
+    color: rgb(14, 26, 197);
+    text-decoration: underline;
+    
+}
